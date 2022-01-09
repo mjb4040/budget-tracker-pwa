@@ -4,7 +4,9 @@
   "description": "This is a budget tracker ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -19,8 +21,10 @@
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.2",
-    "mongoose": "^6.1.4",
+    "lite-server": "^2.6.1",
+    "mongoose": "^6.1.5",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.15"
-  }
+  },
+  "devDependencies": {}
 }
